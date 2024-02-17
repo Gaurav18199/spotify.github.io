@@ -140,6 +140,11 @@ i{
 .timestamp{
     margin: 0 23px;
 }
+@media screen and (max-width:435px){   
+    .timestamp{ 
+       font-size: 12px;
+    }
+} 
 
 .timestamp i{
     cursor: pointer;
