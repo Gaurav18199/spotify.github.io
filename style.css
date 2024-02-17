@@ -17,15 +17,28 @@ nav ul{
     background-color: black;
     color: white;
 }
+@media screen and (max-width:435px){   
+    nav ul { 
+       height: 43px;
+       font-size: 13px;
+    }
+} 
 
 nav ul li{
     padding: 0 12px;
 }
+
 .brand img{
     width: 45px;
     padding: 0 8px;
-
 }
+
+@media screen and (max-width:435px){   
+    .brand img{ 
+       width: 30px;
+    }
+} 
+
 .brand{
     display: flex;
     align-items: center;
@@ -83,6 +96,11 @@ i{
 .songItemContainer{
     margin-top: 40px;
 }
+@media screen and (max-width:635px){   
+    .songItemContainer{ 
+       margin-top: 15px;
+    }
+} 
 
 .songItem{
     height: 50px;
@@ -137,8 +155,9 @@ i{
 }
 @media screen and (max-width:800px){   
     .songInfo{
-        left: 8vw;
-        margin-top: -80px
+        left: 13vw;
+    margin-top: -85px;
+    font-size: 10px;
     }
 } 
 
