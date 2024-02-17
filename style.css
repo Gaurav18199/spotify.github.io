@@ -102,12 +102,12 @@ i{
         font-weight: bold;
         border: solid;
         justify-content: start;
-       
+        width: 100%;
     }
 } 
 @media screen and (max-width:635px){   
     h1{ 
-       font-size: 25px;
+       font-size: 22px;
     }
 } 
 
